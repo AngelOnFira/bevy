@@ -415,7 +415,7 @@ pub mod shape {
     }
 
     impl RectangularPrism {
-        pub fn new(length :f32, height :f32, width :f32) -> RectangularPrism {
+        pub fn new(length: f32, height: f32, width: f32) -> RectangularPrism {
             RectangularPrism {
                 max_x: (length / 2.0),
                 min_x: -(length / 2.0),
@@ -429,7 +429,7 @@ pub mod shape {
 
     impl Default for RectangularPrism {
         fn default() -> Self {
-            RectangularPrism::new(2.0,1.0,1.0)
+            RectangularPrism::new(2.0, 1.0, 1.0)
         }
     }
 
